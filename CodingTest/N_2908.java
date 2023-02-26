@@ -11,8 +11,8 @@ public class N_2908 {
 
         int answer = 0;
 
-        while (n != 0) {
-            answer = answer * 10 + n % 10;
+        while (n != 0) { 
+            answer = answer * 10 + n % 10; // n을 10으로 나누 나머지를 계속 더한다 -> 그 후 10곱해주면 자리수 가 더해짐 ,,반복
             n /= 10;
         }
         return answer;
