@@ -3,6 +3,6 @@ package CodingTest;
 public class N_10980 {
 
     public static void main(String[] args) {
-        System.out.println("꼭 풀기 .");
+        System.out.println("꼭 풀기 !!!");
     }
 }
