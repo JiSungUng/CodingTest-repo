@@ -12,9 +12,9 @@ public class N_1181 {
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-        int N = Integer.parseInt(br.readLine());
+        int N = Integer.parseInt(br.readLine());//개수
 
-        String[] arr = new String[N];
+        String[] arr = new String[N]; //배열의 크기
 
         for (int i = 0; i < N; i++) {
             arr[i] = br.readLine();
