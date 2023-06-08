@@ -10,7 +10,7 @@ import java.util.Comparator;
 public class N_1181 {
     public static void main(String[] args) throws IOException {
 
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in)); //버퍼리더
 
         int N = Integer.parseInt(br.readLine());//개수
 
@@ -43,7 +43,7 @@ public class N_1181 {
                 sb.append(arr[i]).append('\n');
             }
         }
-        System.out.println(sb);
+        System.out.println(sb);// 출력
     }
 
 }
