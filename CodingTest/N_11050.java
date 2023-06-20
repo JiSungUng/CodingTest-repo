@@ -18,9 +18,9 @@ public class N_11050 {
     // 팩토리얼
     public static int factorial(int n) {
         if (n <= 1)
-            return 1;
+            return 1; //1
         else
-            return factorial(n - 1) * n;
+            return factorial(n - 1) * n; //팩토리얼
     }
 
 }
