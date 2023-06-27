@@ -1,18 +1,32 @@
 package CodingTest;
 
 import java.util.Scanner;
+import java.util.Arrays;
 
-//좌표 정렬하기
-public class N_11650 {
+public class  N_11650{
     public static void main(String[] args) {
-        //좌표정렬하기문제
-        Scanner sc = new Scanner;
 
+        Scanner in = new Scanner(System.in);
 
-        int x;
-        int y;
-        x=sc.nextInt();
-        y=sc.nextInt();
+        int N = in.nextInt();
 
+        int[][] arr = new int[N][2];
+
+        for(int i = 0; i < N; i++) {
+            arr[i][0] = in.nextInt();
+            arr[i][1] = in.nextInt();
+        }
+
+        Arrays.sort(arr, (e1, e2) -> {
+            if(e1[0] == e2[0]) {
+                return e1[1] - e2[1];
+            } else {
+                return e1[0] - e2[0];
+            }
+        });
+
+        for(int i = 0; i < N; i++) {
+            System.out.println(arr[i][0] + " " + arr[i][1]);
+        }
     }
 }
