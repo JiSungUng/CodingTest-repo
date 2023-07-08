@@ -10,7 +10,7 @@ public class N_1654 {
         int n=sc.nextInt();//랜선의 개수
         int cnt= sc.nextInt(); // 총 랜선의 개수
 
-        for(int i=0; i<; i++){
+        for(int i=0; i<cnt; i++){
 
         }
     }
