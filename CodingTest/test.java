@@ -1,7 +1,7 @@
 package CodingTest;
 
 public class test {
-    public static void main(String args[]){
-        System.out.println("" + 1 + 2); System.out.println(1 + 2 + ""); }
-
+    public static void main(String args[]) {
+        System.out.printf("%.4f",3.57);
+    }
 }
