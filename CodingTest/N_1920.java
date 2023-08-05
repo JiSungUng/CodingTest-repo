@@ -38,6 +38,7 @@ public class N_1920 {
         System.out.println(sb);
     }
 
+
     /**
      * @param arr 정렬 된 배열
      * @param key 찾으려는 값
