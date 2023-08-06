@@ -35,6 +35,7 @@ public class N_1920 {
                 sb.append(0).append('\n');
             }
         }
+
         System.out.println(sb);
     }
 
