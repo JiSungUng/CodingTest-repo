@@ -15,5 +15,6 @@ public class N_2420 {
         Long M = Long.parseLong(st.nextToken());
 
         System.out.println(Math.abs(N - M));
+
     }
 }
