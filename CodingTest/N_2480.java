@@ -2,6 +2,7 @@ package CodingTest;
 
 import java.util.Scanner;
 
+//주사위문제
 public class N_2480 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
