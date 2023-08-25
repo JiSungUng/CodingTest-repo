@@ -17,5 +17,6 @@ public class N_2480 {
             System.out.print(1000 + b*100);
         else
             System.out.print((Math.max(Math.max(a, b), c)*100));
+
     }
 }
