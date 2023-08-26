@@ -19,6 +19,7 @@ public class N_11021 {
         }
         for(int i=0;i<num;i++){
         System.out.println("Case #"+(i+1)+": "+arr[i]);
+
         }
     }
 }
