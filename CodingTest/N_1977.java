@@ -23,7 +23,6 @@ public class N_1977 {
 
             }
 
-
         }
         if(sum == 0) {
             System.out.println(-1);
