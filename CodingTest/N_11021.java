@@ -17,6 +17,7 @@ public class N_11021 {
             arr[i]=a+b;
 
         }
+
         for(int i=0;i<num;i++){
         System.out.println("Case #"+(i+1)+": "+arr[i]);
 

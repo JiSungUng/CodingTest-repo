@@ -20,7 +20,6 @@ public class N_1977 {
                 if(square[i] < min) {
                     min = square[i];
                 }
-
             }
 
         }
