@@ -32,7 +32,8 @@ public class N_2581 {
         if (sum == 0) {
             System.out.println(-1);
         } else {
-            System.out.println(sum + "\n" + min);
+            System.out.println(sum);
+            System.out.println(min);
         }
     }
 }
