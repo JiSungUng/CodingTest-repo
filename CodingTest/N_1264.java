@@ -1,6 +1,5 @@
 package CodingTest;
 
-import javax.security.sasl.SaslClient;
 import java.util.Scanner;
 
 //모음의 개수
