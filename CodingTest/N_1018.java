@@ -44,6 +44,7 @@ public class N_1018 {
 
 
     public static void find(int x, int y) {
+
         int end_x = x + 8;
         int end_y = y + 8;
         int count = 0;
