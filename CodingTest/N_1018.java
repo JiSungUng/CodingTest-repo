@@ -15,7 +15,6 @@ public class N_1018 {
 
         arr = new boolean[N][M];
 
-
         // 배열 입력
         for (int i = 0; i < N; i++) {
             String str = in.next();
@@ -29,7 +28,6 @@ public class N_1018 {
 
             }
         }
-
 
         int N_row = N - 7;
         int M_col = M - 7;
